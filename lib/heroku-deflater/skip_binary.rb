@@ -11,6 +11,8 @@ module HerokuDeflater
       %r{^application/json},
       %r{^application/.*?xml},
       'application/x-font-ttf',
+      'application/x-font-woff',
+      'application/font-woff2',
       'font/opentype',
       'image/svg+xml'
     ].freeze
